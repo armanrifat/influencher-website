@@ -39,3 +39,66 @@ nav ul li {
   cursor: pointer;
   font-size: 16px;
 }
+
+/* Hero Section */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 0;
+  flex-wrap: wrap;
+}
+
+.hero-text {
+  max-width: 500px;
+}
+
+.hero-text h1 {
+  font-size: 40px;
+}
+
+.hero-text span {
+  color: #3A3A3A;
+}
+
+.hero-text p {
+  margin: 20px 0;
+}
+
+.hero-text button {
+  background: #E02C6D;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.hero-img img {
+  width: 100%;
+  max-width: 400px;
+}
+
+/* Logo Section */
+.logo-section {
+  padding: 40px 0;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+
+.logo-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 20px;
+  align-items: center;
+  justify-items: center;
+  padding: 0 20px;
+}
+
+.logo-container img {
+  max-height: 40px;
+  object-fit: contain;
+}
